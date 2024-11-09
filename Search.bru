@@ -1,0 +1,15 @@
+meta {
+  name: Search
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{baseUrl}}/api/v0.5/search/users?q=daniebeler
+  body: none
+  auth: inherit
+}
+
+params:query {
+  q: daniebeler
+}
