@@ -5,7 +5,11 @@ meta {
 }
 
 get {
-  url: {{baseUrl}}/api/v0/feed/for-you
+  url: {{baseUrl}}/api/v0/feed/for-you?cursor=eyJ2aWRlb3MuaWQiOjgzMDgyMjQ3NjI4MDAxMjgwLCJfcG9pbnRzVG9OZXh0SXRlbXMiOnRydWV9
   body: none
   auth: inherit
+}
+
+params:query {
+  cursor: eyJ2aWRlb3MuaWQiOjgzMDgyMjQ3NjI4MDAxMjgwLCJfcG9pbnRzVG9OZXh0SXRlbXMiOnRydWV9
 }
